@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'myFont';
+    src: url('fonts/font.ttf');
+  }
+h1{
+    font-family: myFont;
+    margin: 20px 5px 10px 5px;
+}
+
+.page{
+    background-color: white;
+}
+
+.positioning {
+    position: relative;
+    display: inline-block;
+}
+.portrait img{
+    width: 250px;
+    height: 320px;
+    margin: 10px 5px 0px 5px;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+.flag img{
+    width: 80px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid black;
+    position: absolute;
+    bottom:0;
+    left:0;
+    z-index: 1;
+}
+
+button{
+    width: 90px;
+    height: 45px;
+    margin: 20px 10px 10px 10px;
+    background-color: plum;
+}
